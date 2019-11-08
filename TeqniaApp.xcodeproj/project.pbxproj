@@ -15,6 +15,8 @@
 		3D51655423730B4C000CE7CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D51655223730B4C000CE7CA /* LaunchScreen.storyboard */; };
 		3D51655F23730B4C000CE7CA /* TeqniaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51655E23730B4C000CE7CA /* TeqniaAppTests.swift */; };
 		3D51656A23730B4C000CE7CA /* TeqniaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51656923730B4C000CE7CA /* TeqniaAppUITests.swift */; };
+		3D64AF6223762FDA009A4BF8 /* CustomerLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64AF6123762FDA009A4BF8 /* CustomerLoginViewController.swift */; };
+		3D64AF6423763072009A4BF8 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64AF6323763072009A4BF8 /* ForgotPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3D51656523730B4C000CE7CA /* TeqniaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeqniaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D51656923730B4C000CE7CA /* TeqniaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeqniaAppUITests.swift; sourceTree = "<group>"; };
 		3D51656B23730B4C000CE7CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D64AF6123762FDA009A4BF8 /* CustomerLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerLoginViewController.swift; sourceTree = "<group>"; };
+		3D64AF6323763072009A4BF8 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				3D51654723730B4A000CE7CA /* AppDelegate.swift */,
 				3D51654923730B4A000CE7CA /* SceneDelegate.swift */,
 				3D51654B23730B4A000CE7CA /* ViewController.swift */,
+				3D64AF6123762FDA009A4BF8 /* CustomerLoginViewController.swift */,
+				3D64AF6323763072009A4BF8 /* ForgotPasswordViewController.swift */,
 				3D51654D23730B4A000CE7CA /* Main.storyboard */,
 				3D51655023730B4C000CE7CA /* Assets.xcassets */,
 				3D51655223730B4C000CE7CA /* LaunchScreen.storyboard */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D51654C23730B4A000CE7CA /* ViewController.swift in Sources */,
+				3D64AF6423763072009A4BF8 /* ForgotPasswordViewController.swift in Sources */,
 				3D51654823730B4A000CE7CA /* AppDelegate.swift in Sources */,
+				3D64AF6223762FDA009A4BF8 /* CustomerLoginViewController.swift in Sources */,
 				3D51654A23730B4A000CE7CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
