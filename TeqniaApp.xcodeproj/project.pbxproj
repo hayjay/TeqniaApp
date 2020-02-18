@@ -15,8 +15,13 @@
 		3D51655423730B4C000CE7CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D51655223730B4C000CE7CA /* LaunchScreen.storyboard */; };
 		3D51655F23730B4C000CE7CA /* TeqniaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51655E23730B4C000CE7CA /* TeqniaAppTests.swift */; };
 		3D51656A23730B4C000CE7CA /* TeqniaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51656923730B4C000CE7CA /* TeqniaAppUITests.swift */; };
+		3D64309123FB586100D5038F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64309023FB586100D5038F /* LoginViewController.swift */; };
+		3D64309323FB5C4B00D5038F /* PackagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64309223FB5C4B00D5038F /* PackagesViewController.swift */; };
+		3D64309523FB5E0200D5038F /* CustomerSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64309423FB5E0200D5038F /* CustomerSignupViewController.swift */; };
+		3D64309723FB658900D5038F /* PackageListingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64309623FB658900D5038F /* PackageListingsViewController.swift */; };
 		3D64AF6223762FDA009A4BF8 /* CustomerLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64AF6123762FDA009A4BF8 /* CustomerLoginViewController.swift */; };
 		3D64AF6423763072009A4BF8 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64AF6323763072009A4BF8 /* ForgotPasswordViewController.swift */; };
+		3D64AF6623763544009A4BF8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64AF6523763544009A4BF8 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +56,13 @@
 		3D51656523730B4C000CE7CA /* TeqniaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeqniaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D51656923730B4C000CE7CA /* TeqniaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeqniaAppUITests.swift; sourceTree = "<group>"; };
 		3D51656B23730B4C000CE7CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D64309023FB586100D5038F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3D64309223FB5C4B00D5038F /* PackagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesViewController.swift; sourceTree = "<group>"; };
+		3D64309423FB5E0200D5038F /* CustomerSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerSignupViewController.swift; sourceTree = "<group>"; };
+		3D64309623FB658900D5038F /* PackageListingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageListingsViewController.swift; sourceTree = "<group>"; };
 		3D64AF6123762FDA009A4BF8 /* CustomerLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerLoginViewController.swift; sourceTree = "<group>"; };
 		3D64AF6323763072009A4BF8 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		3D64AF6523763544009A4BF8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +113,10 @@
 		3D51654623730B4A000CE7CA /* TeqniaApp */ = {
 			isa = PBXGroup;
 			children = (
+				3D64308F23FB553400D5038F /* Data Model */,
 				3D51654723730B4A000CE7CA /* AppDelegate.swift */,
 				3D51654923730B4A000CE7CA /* SceneDelegate.swift */,
-				3D51654B23730B4A000CE7CA /* ViewController.swift */,
-				3D64AF6123762FDA009A4BF8 /* CustomerLoginViewController.swift */,
-				3D64AF6323763072009A4BF8 /* ForgotPasswordViewController.swift */,
+				3D64308E23FB54EC00D5038F /* Controllers */,
 				3D51654D23730B4A000CE7CA /* Main.storyboard */,
 				3D51655023730B4C000CE7CA /* Assets.xcassets */,
 				3D51655223730B4C000CE7CA /* LaunchScreen.storyboard */,
@@ -132,6 +141,28 @@
 				3D51656B23730B4C000CE7CA /* Info.plist */,
 			);
 			path = TeqniaAppUITests;
+			sourceTree = "<group>";
+		};
+		3D64308E23FB54EC00D5038F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D64309623FB658900D5038F /* PackageListingsViewController.swift */,
+				3D64309023FB586100D5038F /* LoginViewController.swift */,
+				3D64AF6523763544009A4BF8 /* WelcomeViewController.swift */,
+				3D64AF6323763072009A4BF8 /* ForgotPasswordViewController.swift */,
+				3D51654B23730B4A000CE7CA /* ViewController.swift */,
+				3D64AF6123762FDA009A4BF8 /* CustomerLoginViewController.swift */,
+				3D64309223FB5C4B00D5038F /* PackagesViewController.swift */,
+				3D64309423FB5E0200D5038F /* CustomerSignupViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3D64308F23FB553400D5038F /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Data Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,10 +296,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D64309123FB586100D5038F /* LoginViewController.swift in Sources */,
 				3D51654C23730B4A000CE7CA /* ViewController.swift in Sources */,
 				3D64AF6423763072009A4BF8 /* ForgotPasswordViewController.swift in Sources */,
 				3D51654823730B4A000CE7CA /* AppDelegate.swift in Sources */,
+				3D64AF6623763544009A4BF8 /* WelcomeViewController.swift in Sources */,
+				3D64309323FB5C4B00D5038F /* PackagesViewController.swift in Sources */,
+				3D64309723FB658900D5038F /* PackageListingsViewController.swift in Sources */,
 				3D64AF6223762FDA009A4BF8 /* CustomerLoginViewController.swift in Sources */,
+				3D64309523FB5E0200D5038F /* CustomerSignupViewController.swift in Sources */,
 				3D51654A23730B4A000CE7CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +479,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QM7MTQ682T;
 				INFOPLIST_FILE = TeqniaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,6 +498,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QM7MTQ682T;
 				INFOPLIST_FILE = TeqniaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
