@@ -8,8 +8,10 @@
 
 import UIKit
 
-class CustomerSignupViewController: UITableViewController {
+class CustomerSignupViewController: UIViewController {
 
+    @IBAction func SignupButton(_ sender: UIButton) {
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,4 +22,11 @@ class CustomerSignupViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
+    @IBAction func signupButtonPressed(_ sender: UIButton) {
+        var fullname = UITextField()
+        var email = UITextField()
+        var phone = UITextField()
+        var password = UITextField()
+        
+    }
 }

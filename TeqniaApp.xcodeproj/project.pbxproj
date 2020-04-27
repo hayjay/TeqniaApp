@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4A1314B932050EB1582EA2 /* Pods_TeqniaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF484F946442AE69BE7A5D5 /* Pods_TeqniaApp.framework */; };
+		3B34C00672C4E2C6516939A1 /* Pods_TeqniaAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8AA40F605D58FEC90CCCF25 /* Pods_TeqniaAppTests.framework */; };
 		3D51654823730B4A000CE7CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51654723730B4A000CE7CA /* AppDelegate.swift */; };
 		3D51654A23730B4A000CE7CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51654923730B4A000CE7CA /* SceneDelegate.swift */; };
 		3D51654C23730B4A000CE7CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51654B23730B4A000CE7CA /* ViewController.swift */; };
@@ -22,6 +24,9 @@
 		3D64AF6223762FDA009A4BF8 /* CustomerLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64AF6123762FDA009A4BF8 /* CustomerLoginViewController.swift */; };
 		3D64AF6423763072009A4BF8 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64AF6323763072009A4BF8 /* ForgotPasswordViewController.swift */; };
 		3D64AF6623763544009A4BF8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64AF6523763544009A4BF8 /* WelcomeViewController.swift */; };
+		3DEC9BFB2456DF0200D7E9B4 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC9BFA2456DF0200D7E9B4 /* Service.swift */; };
+		3DEC9BFD2456E2E100D7E9B4 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC9BFC2456E2E100D7E9B4 /* Country.swift */; };
+		8F33C9702875EC023E10EF4D /* Pods_TeqniaApp_TeqniaAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EABCEECE5E6F897BB8F8FB3 /* Pods_TeqniaApp_TeqniaAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EABCEECE5E6F897BB8F8FB3 /* Pods_TeqniaApp_TeqniaAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeqniaApp_TeqniaAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF267FF3C1B694FA44B223E /* Pods-TeqniaApp-TeqniaAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeqniaApp-TeqniaAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-TeqniaApp-TeqniaAppUITests/Pods-TeqniaApp-TeqniaAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B94028BA27F8F51B56F6C20 /* Pods-TeqniaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeqniaAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TeqniaAppTests/Pods-TeqniaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		333AB1597224323009FB3057 /* Pods-TeqniaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeqniaAppTests.release.xcconfig"; path = "Target Support Files/Pods-TeqniaAppTests/Pods-TeqniaAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		3D51654423730B4A000CE7CA /* TeqniaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeqniaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D51654723730B4A000CE7CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D51654923730B4A000CE7CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +72,13 @@
 		3D64AF6123762FDA009A4BF8 /* CustomerLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerLoginViewController.swift; sourceTree = "<group>"; };
 		3D64AF6323763072009A4BF8 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		3D64AF6523763544009A4BF8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		3DEC9BFA2456DF0200D7E9B4 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		3DEC9BFC2456E2E100D7E9B4 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		41001A10CFF92083E1BED686 /* Pods-TeqniaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeqniaApp.release.xcconfig"; path = "Target Support Files/Pods-TeqniaApp/Pods-TeqniaApp.release.xcconfig"; sourceTree = "<group>"; };
+		8BF484F946442AE69BE7A5D5 /* Pods_TeqniaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeqniaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E81DCB960FBC499DDE6FB5 /* Pods-TeqniaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeqniaApp.debug.xcconfig"; path = "Target Support Files/Pods-TeqniaApp/Pods-TeqniaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C8AA40F605D58FEC90CCCF25 /* Pods_TeqniaAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeqniaAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E590C7C313BB16304CE0A2C1 /* Pods-TeqniaApp-TeqniaAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeqniaApp-TeqniaAppUITests.release.xcconfig"; path = "Target Support Files/Pods-TeqniaApp-TeqniaAppUITests/Pods-TeqniaApp-TeqniaAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A4A1314B932050EB1582EA2 /* Pods_TeqniaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B34C00672C4E2C6516939A1 /* Pods_TeqniaAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F33C9702875EC023E10EF4D /* Pods_TeqniaApp_TeqniaAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +116,8 @@
 				3D51655D23730B4C000CE7CA /* TeqniaAppTests */,
 				3D51656823730B4C000CE7CA /* TeqniaAppUITests */,
 				3D51654523730B4A000CE7CA /* Products */,
+				AA05A54B4515979BD16AEC26 /* Pods */,
+				AA1E13AC4DC6646431BDD076 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +142,7 @@
 				3D51655023730B4C000CE7CA /* Assets.xcassets */,
 				3D51655223730B4C000CE7CA /* LaunchScreen.storyboard */,
 				3D51655523730B4C000CE7CA /* Info.plist */,
+				3DEC9BFA2456DF0200D7E9B4 /* Service.swift */,
 			);
 			path = TeqniaApp;
 			sourceTree = "<group>";
@@ -161,8 +183,32 @@
 		3D64308F23FB553400D5038F /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
+				3DEC9BFC2456E2E100D7E9B4 /* Country.swift */,
 			);
 			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		AA05A54B4515979BD16AEC26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94E81DCB960FBC499DDE6FB5 /* Pods-TeqniaApp.debug.xcconfig */,
+				41001A10CFF92083E1BED686 /* Pods-TeqniaApp.release.xcconfig */,
+				1EF267FF3C1B694FA44B223E /* Pods-TeqniaApp-TeqniaAppUITests.debug.xcconfig */,
+				E590C7C313BB16304CE0A2C1 /* Pods-TeqniaApp-TeqniaAppUITests.release.xcconfig */,
+				2B94028BA27F8F51B56F6C20 /* Pods-TeqniaAppTests.debug.xcconfig */,
+				333AB1597224323009FB3057 /* Pods-TeqniaAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA1E13AC4DC6646431BDD076 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BF484F946442AE69BE7A5D5 /* Pods_TeqniaApp.framework */,
+				1EABCEECE5E6F897BB8F8FB3 /* Pods_TeqniaApp_TeqniaAppUITests.framework */,
+				C8AA40F605D58FEC90CCCF25 /* Pods_TeqniaAppTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D51656E23730B4C000CE7CA /* Build configuration list for PBXNativeTarget "TeqniaApp" */;
 			buildPhases = (
+				7222D63162BC22BAFD58F679 /* [CP] Check Pods Manifest.lock */,
 				3D51654023730B4A000CE7CA /* Sources */,
 				3D51654123730B4A000CE7CA /* Frameworks */,
 				3D51654223730B4A000CE7CA /* Resources */,
+				4363C2E828DDB8533356ADA7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -189,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D51657123730B4C000CE7CA /* Build configuration list for PBXNativeTarget "TeqniaAppTests" */;
 			buildPhases = (
+				2051179CFE995424C4E0DEEF /* [CP] Check Pods Manifest.lock */,
 				3D51655623730B4C000CE7CA /* Sources */,
 				3D51655723730B4C000CE7CA /* Frameworks */,
 				3D51655823730B4C000CE7CA /* Resources */,
@@ -207,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D51657423730B4C000CE7CA /* Build configuration list for PBXNativeTarget "TeqniaAppUITests" */;
 			buildPhases = (
+				ACFB79554800FA60DADF2AB5 /* [CP] Check Pods Manifest.lock */,
 				3D51656123730B4C000CE7CA /* Sources */,
 				3D51656223730B4C000CE7CA /* Frameworks */,
 				3D51656323730B4C000CE7CA /* Resources */,
+				DB553DA5EB5D46C973B49ACB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -291,6 +342,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2051179CFE995424C4E0DEEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeqniaAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4363C2E828DDB8533356ADA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeqniaApp/Pods-TeqniaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeqniaApp/Pods-TeqniaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeqniaApp/Pods-TeqniaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7222D63162BC22BAFD58F679 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeqniaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACFB79554800FA60DADF2AB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeqniaApp-TeqniaAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB553DA5EB5D46C973B49ACB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeqniaApp-TeqniaAppUITests/Pods-TeqniaApp-TeqniaAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeqniaApp-TeqniaAppUITests/Pods-TeqniaApp-TeqniaAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeqniaApp-TeqniaAppUITests/Pods-TeqniaApp-TeqniaAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D51654023730B4A000CE7CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -300,10 +454,12 @@
 				3D51654C23730B4A000CE7CA /* ViewController.swift in Sources */,
 				3D64AF6423763072009A4BF8 /* ForgotPasswordViewController.swift in Sources */,
 				3D51654823730B4A000CE7CA /* AppDelegate.swift in Sources */,
+				3DEC9BFD2456E2E100D7E9B4 /* Country.swift in Sources */,
 				3D64AF6623763544009A4BF8 /* WelcomeViewController.swift in Sources */,
 				3D64309323FB5C4B00D5038F /* PackagesViewController.swift in Sources */,
 				3D64309723FB658900D5038F /* PackageListingsViewController.swift in Sources */,
 				3D64AF6223762FDA009A4BF8 /* CustomerLoginViewController.swift in Sources */,
+				3DEC9BFB2456DF0200D7E9B4 /* Service.swift in Sources */,
 				3D64309523FB5E0200D5038F /* CustomerSignupViewController.swift in Sources */,
 				3D51654A23730B4A000CE7CA /* SceneDelegate.swift in Sources */,
 			);
@@ -476,6 +632,7 @@
 		};
 		3D51656F23730B4C000CE7CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94E81DCB960FBC499DDE6FB5 /* Pods-TeqniaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -495,6 +652,7 @@
 		};
 		3D51657023730B4C000CE7CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41001A10CFF92083E1BED686 /* Pods-TeqniaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +672,7 @@
 		};
 		3D51657223730B4C000CE7CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B94028BA27F8F51B56F6C20 /* Pods-TeqniaAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -535,6 +694,7 @@
 		};
 		3D51657323730B4C000CE7CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 333AB1597224323009FB3057 /* Pods-TeqniaAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -556,6 +716,7 @@
 		};
 		3D51657523730B4C000CE7CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF267FF3C1B694FA44B223E /* Pods-TeqniaApp-TeqniaAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -575,6 +736,7 @@
 		};
 		3D51657623730B4C000CE7CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E590C7C313BB16304CE0A2C1 /* Pods-TeqniaApp-TeqniaAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

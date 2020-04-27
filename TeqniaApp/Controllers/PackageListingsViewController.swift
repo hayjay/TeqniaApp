@@ -12,7 +12,9 @@ class PackageListingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+//        let service = Service(baseUrl: "https://restcountries.eu/rest/v2/")
+//        service.getAllCountryName(endpoint: "all")
         // Do any additional setup after loading the view.
     }
     
