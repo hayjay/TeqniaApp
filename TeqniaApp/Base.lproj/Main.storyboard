@@ -129,6 +129,13 @@
                         <viewLayoutGuide key="safeArea" id="PRZ-TN-Zmc"/>
                     </view>
                     <navigationItem key="navigationItem" id="c78-pL-Oen"/>
+                    <connections>
+                        <outlet property="confirm_password" destination="dKN-vq-COu" id="neQ-xq-f6A"/>
+                        <outlet property="email" destination="dbz-kI-Nsh" id="Y83-BA-E8z"/>
+                        <outlet property="fullname" destination="FK0-DB-pLq" id="wzb-YT-TXx"/>
+                        <outlet property="password" destination="QK5-ql-1MI" id="7yI-xc-c8H"/>
+                        <outlet property="phone" destination="6uA-Ki-Yzq" id="5Zp-dt-wa1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vDX-5Q-nJg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="HdV-6c-exe" userLabel="Exit" sceneMemberID="exit"/>

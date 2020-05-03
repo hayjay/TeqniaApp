@@ -7,11 +7,21 @@
 //
 
 import UIKit
+//make sure u include var window: UIWindow? to app.delegate
+import SVProgressHUD
 
 class CustomerSignupViewController: UIViewController {
-
-    @IBAction func SignupButton(_ sender: UIButton) {
-    }
+    
+    @IBOutlet var fullname: UITextField!
+    @IBOutlet var email: UITextField!
+    
+    @IBOutlet var phone: UITextField!
+    
+    @IBOutlet var password: UITextField!
+    
+    @IBOutlet var confirm_password: UITextField!
+    var customer = Customer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,13 +30,31 @@ class CustomerSignupViewController: UIViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        //instantiate the api service class
+        
     }
 
     @IBAction func signupButtonPressed(_ sender: UIButton) {
-        var fullname = UITextField()
-        var email = UITextField()
-        var phone = UITextField()
-        var password = UITextField()
+        let service = Service(baseUrl: "http://localhost:8040/")
+        service.newCustomer(
+                    endPoint: "customer/create",
+                    parameters: [
+                        "name" : "Hayjay", "email" : "heykay!@tsrsa.com", "password": "olakunle", "phone_number": "09033333394", "gender": "Male", "alt_address": "address", "address": "33, Akinfunle street VI Lagos", "package_id" : 3, "amount" : 40000, "payment_status" : "success", "mode_of_payment" : "Online", "payment_reference" : 2093293
+                    ]
+        )
+        service.customerCompletionHandler { [weak self] (customer, status, message) in
+            if status {
+                guard let self = self else{return}
+                guard let _customer = customer else{return}
+                
+                self.customer = _customer
+            }
+        }
         
+            print("sent to network")
+            print(self.customer)
+//            print("done")
+        //        SVProgressHUD.show()
+        //        MAKE NETWORK CALL TO OUR API
     }
 }

@@ -17,5 +17,6 @@ target 'TeqniaApp' do
   end
 
 pod 'Alamofire', '~> 5.1'
+pod 'SVProgressHUD'
 
 end
