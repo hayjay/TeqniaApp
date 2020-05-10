@@ -20,6 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
     
+    static var standard: AppDelegate {
+        return UIApplication.shared.delegate as! AppDelegate
+    }
+    
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
