@@ -26,6 +26,7 @@
 		3D64AF6423763072009A4BF8 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64AF6323763072009A4BF8 /* ForgotPasswordViewController.swift */; };
 		3D64AF6623763544009A4BF8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D64AF6523763544009A4BF8 /* WelcomeViewController.swift */; };
 		3D95B57324573D5900093443 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95B57224573D5900093443 /* Customer.swift */; };
+		3DABABE524688282009CF239 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABABE424688282009CF239 /* Toast.swift */; };
 		3DEC9BFB2456DF0200D7E9B4 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC9BFA2456DF0200D7E9B4 /* Service.swift */; };
 		3DEC9BFD2456E2E100D7E9B4 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC9BFC2456E2E100D7E9B4 /* Country.swift */; };
 		8F33C9702875EC023E10EF4D /* Pods_TeqniaApp_TeqniaAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EABCEECE5E6F897BB8F8FB3 /* Pods_TeqniaApp_TeqniaAppUITests.framework */; };
@@ -76,6 +77,7 @@
 		3D64AF6323763072009A4BF8 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		3D64AF6523763544009A4BF8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		3D95B57224573D5900093443 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		3DABABE424688282009CF239 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		3DEC9BFA2456DF0200D7E9B4 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		3DEC9BFC2456E2E100D7E9B4 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		41001A10CFF92083E1BED686 /* Pods-TeqniaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeqniaApp.release.xcconfig"; path = "Target Support Files/Pods-TeqniaApp/Pods-TeqniaApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				3D51655223730B4C000CE7CA /* LaunchScreen.storyboard */,
 				3D51655523730B4C000CE7CA /* Info.plist */,
 				3DEC9BFA2456DF0200D7E9B4 /* Service.swift */,
+				3DABABE62468828B009CF239 /* Services */,
 			);
 			path = TeqniaApp;
 			sourceTree = "<group>";
@@ -192,6 +195,14 @@
 				3D304AC8245E894C00828AF1 /* DependentModel.swift */,
 			);
 			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		3DABABE62468828B009CF239 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3DABABE424688282009CF239 /* Toast.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		AA05A54B4515979BD16AEC26 /* Pods */ = {
@@ -463,6 +474,7 @@
 				3D51654823730B4A000CE7CA /* AppDelegate.swift in Sources */,
 				3DEC9BFD2456E2E100D7E9B4 /* Country.swift in Sources */,
 				3D64AF6623763544009A4BF8 /* WelcomeViewController.swift in Sources */,
+				3DABABE524688282009CF239 /* Toast.swift in Sources */,
 				3D64309323FB5C4B00D5038F /* PackagesViewController.swift in Sources */,
 				3D64309723FB658900D5038F /* PackageListingsViewController.swift in Sources */,
 				3D64AF6223762FDA009A4BF8 /* CustomerLoginViewController.swift in Sources */,
