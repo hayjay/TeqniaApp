@@ -79,19 +79,26 @@ class CustomerSignupViewController: UIViewController {
     {
         if status_code == 403 {
           //suggest user to login
-            let alert = UIAlertController(title: "Already have an account?", message: "Would you like to login to your account ?", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Account already exist!", message: "What would you like to do?", preferredStyle: .alert)
             
-            let loginAction = UIAlertAction(title: "Yes", style: .default) { (UIAlertAction) in
-                //perform next step
-                print("Already have an account. User clicked yes!")
+            let loginAction = UIAlertAction(title: "Login to my account", style: .default) { (UIAlertAction) in
+                //redirect user to login screen
+                print("login things!")
                 
             }
+            alert.addAction(loginAction)
             
-            alert.addAction(UIAlertAction(title : "No", style: .cancel) { (UIAlertAction) in
-                print("No account yet.")
+            alert.addAction(UIAlertAction(title : "Recover my password", style: .default) { (UIAlertAction) in
+                //redirect user to password recovery screen
+                print("recover password")
             })
             
-            alert.addAction(loginAction)
+            alert.addAction(UIAlertAction(title: "Cancel", style: .cancel) {
+                (UIAlertAction) in
+                //make user remain on this screen
+               print("stay on signup!")
+            })
+            
             //display the pop up
             self.present(alert, animated: true)
         }
